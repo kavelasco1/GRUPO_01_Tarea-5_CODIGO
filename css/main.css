@@ -1,0 +1,76 @@
+body {
+  font-family: ' Calisto MT';
+
+}
+h2{
+  font-family: 'Garamond', sans-serif;
+}
+h1{
+  font-family: 'Copperplate Gothic';
+}
+
+.navbar-brand {
+  font-size: 10px;
+  color: #009999;
+  font-weight: bold;
+}
+
+#testimonial {
+  background: #00CCCC;
+  padding: 60px 0 40px 0;
+  text-align:center;
+  margin-top: 50px;
+}
+
+footer {
+  background: url(../img/fondo.jpg);
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 20px;
+    color: #36A0FF;
+}
+
+.form-group{
+  margin: 5px;
+  width: 500%;
+  max-width: 500px;
+  padding: 10px;
+ 
+}
+
+.blue {
+    color: blue;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+button{
+  color: #36A0FF;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #36A0FF;
+}
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
